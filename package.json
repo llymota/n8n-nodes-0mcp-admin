@@ -1,0 +1,60 @@
+{
+  "author": {
+    "name": "llymota",
+    "url": "https://github.com/llymota"
+  },
+  "description": "n8n community node for 0mcp admin automation",
+  "devDependencies": {
+    "@n8n/node-cli": "0.41.2",
+    "@types/node": "22.15.29",
+    "eslint": "9.29.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "\u003e=22.22.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/llymota/n8n-nodes-0mcp-admin",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "0mcp",
+    "adminn",
+    "admin"
+  ],
+  "license": "MIT",
+  "n8n": {
+    "credentials": [
+      "dist/credentials/Node0mcpBlogApiApi.credentials.js"
+    ],
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/Node0mcpBlogApi/Node0mcpBlogApi.node.js"
+    ],
+    "strict": true
+  },
+  "name": "n8n-nodes-0mcp-adminn",
+  "nativeShip": {
+    "artifactSha256": "45c0a107fae5eedb663ef088a5c83546eb0c652f0a56017cd1200e6c3bebd9ba"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llymota/n8n-nodes-0mcp-admin.git"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix"
+  },
+  "version": "1.0.0"
+}
