@@ -43,7 +43,7 @@
   },
   "name": "n8n-nodes-0mcp-adminn",
   "nativeShip": {
-    "artifactSha256": "45c0a107fae5eedb663ef088a5c83546eb0c652f0a56017cd1200e6c3bebd9ba"
+    "artifactSha256": "08d86554160e48bdd0fe572803e18392f9898c3a71a52d85f887e319924aa159"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
